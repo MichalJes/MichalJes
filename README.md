@@ -4,22 +4,20 @@ DevOps engineer focused on automation, self-hosted systems, and event tooling.
 
 ![DevOps](https://img.shields.io/badge/DevOps-0B1220?style=for-the-badge&logo=githubactions&logoColor=white) ![Self-hosted](https://img.shields.io/badge/Self--hosted-0F766E?style=for-the-badge&logo=truenas&logoColor=white) ![Event tooling](https://img.shields.io/badge/Event%20tooling-7C3AED?style=for-the-badge&logo=obsstudio&logoColor=white) ![Lorcana](https://img.shields.io/badge/Disney%20Lorcana-F59E0B?style=for-the-badge)
 
-I like building practical systems that survive real use: tournament operations tools, OBS/event-production workflows, TrueNAS apps, Raspberry Pi appliances, and small domain-specific engines.
-
 ## 🧭 What I work on
 
 - DevOps automation and self-hosted infrastructure
 - Event-production tooling for Disney Lorcana tournaments
-- Tournament operations software and operator runbooks
-- Homelab apps for real household use, not demo screenshots
+- Tournament operations software
+- Homelab apps
 - Game modding, audio, and small hardware projects
 
 ## 🔧 Current projects
 
-- **DLOP Tournament Alpha:** plain-PHP tournament operations software for Lorcana events: setup editor, readiness gates, rehearsal scripts, export/restore checks, and event-day safety tooling.
-- **Lorcana engine:** Rust rules/search/analyzer project with official Ravensburger reference refreshes, CLI analysis reports, bounded replay decoding, and decklist parsing.
-- **QuestTourDashboard:** live tournament tooling for Quest Tour and Team Superbrawl events: bracket projection, roster/check-in flows, kiosk readiness, and OBS overlays.
-- **Event production stack:** AV/network design for live card-game broadcasts: MikroTik routing, Raspberry Pi/NDI tests, OBS workflows, audio routing, fallback plans, and operator checklists.
+- **DLOP Tournament Alpha:** plain-PHP tournament operations software for Lorcana event with setup editor.
+- **Lorcana engine:** Rust rules/search/analyzer project CLI analysis reports, duels.ink replay analysis.
+- **QuestTourDashboard:** live tournament tooling for Quest Tour and Team Superbrawl events with bracket projection, roster/check-in flows, kiosk mode, and OBS overlays.
+- **Event production stack:** AV/network design for live card-game broadcasts: Router routing, Raspberry Pi/NDI tests, OBS workflows, audio routing, fallback plans, and operator checklists.
 
 ## 🚀 Selected work
 
@@ -41,7 +39,7 @@ A practical broadcast stack for tabletop events: network planning, camera/audio 
 
 **Ania Bookseerr**
 
-LAN-only ebook catalog/request portal on TrueNAS. Built around a safe Calibre-backed workflow, public-domain imports, ClamD checks, and disabled-by-default broker experiments.
+LAN-only ebook catalog/request portal on TrueNAS. Built around a safe Calibre-backed workflow, public-domain imports, ClamD checks.
 
 **MeasuringCard**
 
@@ -49,7 +47,7 @@ Master's thesis project: CAN bus EMI measurement card for a Formula Student elec
 
 ## 📦 Public repos
 
-Most of my current work is private or event/internal, but a few public repos are available here:
+Most of my current work is private or event/internal, but some public repos are available here:
 
 - [ETS2_RadioFix](https://github.com/MichalJes/ETS2_RadioFix) — ETS2/ATS radio station file auto-updater built with a Python scraper.
 
